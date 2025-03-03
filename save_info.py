@@ -2,13 +2,17 @@ import json
 import os
 
 
-def save_answers_to_json(answer_str, filename):
+def save_answers_to_json(answer_str, image_path, filename):
     """
     将 AI 返回的 JSON 字符串解析，并追加到 JSON 文件中。
 
     :param answer_str: AI 返回的 JSON 字符串
     :param filename: JSON 文件名（默认 "ai_response.json"）
     """
+    data = {
+        "image": image_path,
+    }
+    #处理answer数据
     try:
         # 解析传入的 JSON 字符串
         new_data = json.loads(answer_str.strip())  # 解析 JSON
@@ -27,7 +31,8 @@ def save_answers_to_json(answer_str, filename):
         if "responses" not in existing_data:
             existing_data["responses"] = []  # 确保有一个 "responses" 列表存储多个 AI 响应
 
-        existing_data["responses"].append(new_data)  # 追加新数据
+        data.update(new_data)
+        existing_data["responses"].append(data)  # 追加新数据
 
         # 写回 JSON 文件
         with open(filename, "w", encoding="utf-8") as file:
