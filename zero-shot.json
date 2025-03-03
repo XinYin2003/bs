@@ -1,0 +1,37 @@
+{
+    "responses": [
+        {
+            "Weather": "Rainy",
+            "Time": "Day",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "Reason": "Heavy Rainfall Ahead",
+            "Meta Action": [
+                "slow down",
+                "change lane to the right"
+            ]
+        },
+        {
+            "Weather": "Sunny",
+            "Time": "Day",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "Reason": "Approaching intersection, slowing down to ensure safe passage.",
+            "Meta Action": [
+                "slow down"
+            ]
+        }
+    ]
+}
