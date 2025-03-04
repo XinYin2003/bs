@@ -2,7 +2,7 @@
     "responses": [
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_1_RGB.png",
-            "Weather": "Rainy",
+            "Weather": "Night",
             "Time": "Night",
             "Road Environment": "Urban",
             "Lane Options": [
@@ -13,105 +13,158 @@
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_1_RGB.png",
-            "Reason": "Heavy rain and poor visibility at night, requires slow driving to ensure safety.",
+            "Critical Objects": [
+                {
+                    "Category": "Sedan",
+                    "Distance": "Near",
+                    "Relative Position": "Behind"
+                },
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Far",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_1_RGB.png",
+            "Reason": "Night time with rainy weather, slow down rapidly and shift slightly to the left due to the pedestrian on the left lane.",
             "Meta Action": [
-                "slow down",
-                "wait"
+                "slow down rapidly",
+                "shift slightly to the left"
             ]
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_7_RGB.png",
             "Weather": "Rainy",
             "Time": "Night",
-            "Road Environment": "Urban",
+            "Road Environment": "Highway",
             "Lane Options": [
-                "Own Lane",
-                "Right Lane"
+                "Own Lane"
             ],
-            "Ego Lane Position": "Middle Lane"
+            "Ego Lane Position": "Left Lane"
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_7_RGB.png",
-            "Reason": "Heavy rain and poor visibility at night, requires slow driving to ensure safety.",
+            "Critical Objects": [
+                {
+                    "Category": "Motorcycle",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Construction Cone",
+                    "Distance": "Middle",
+                    "Relative Position": "Behind"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_7_RGB.png",
+            "Reason": "Heavy rain and night time, slow down rapidly due to traffic light in front.",
             "Meta Action": [
-                "slow down",
-                "wait"
+                "slow down rapidly"
             ]
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_17_RGB.png",
-            "Weather": "Rainy",
-            "Time": "Night",
+            "Weather": "Sunny",
+            "Time": "Daytime",
             "Road Environment": "Urban",
             "Lane Options": [
-                "Own Lane",
-                "Right Lane"
+                "Own Lane"
             ],
             "Ego Lane Position": "Middle Lane"
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_17_RGB.png",
-            "Reason": "Heavy rain and poor visibility at night, requires slow driving to ensure safety.",
+            "Critical Objects": [
+                {
+                    "Category": "Bicycle",
+                    "Distance": "Near",
+                    "Relative Position": "Left"
+                },
+                {
+                    "Category": "Animal",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_17_RGB.png",
+            "Reason": "Daytime with sunny weather, slow down due to bicycle on the left lane.",
             "Meta Action": [
-                "slow down",
-                "wait"
+                "slow down"
             ]
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_25_RGB.png",
-            "Weather": "Rainy",
-            "Time": "Night",
-            "Road Environment": "Urban",
+            "Weather": "Foggy",
+            "Time": "Dawn",
+            "Road Environment": "Rural",
             "Lane Options": [
-                "Own Lane",
-                "Right Lane"
+                "Own Lane"
             ],
             "Ego Lane Position": "Middle Lane"
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_25_RGB.png",
-            "Reason": "Heavy rain and poor visibility at night, requires slow driving to ensure safety.",
+            "Critical Objects": [
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Construction Cone",
+                    "Distance": "Far",
+                    "Relative Position": "Behind"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_25_RGB.png",
+            "Reason": "Dawn time with foggy weather, slow down due to construction cone on the right lane.",
             "Meta Action": [
-                "slow down",
-                "wait"
+                "slow down"
             ]
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_33_RGB.png",
-            "Weather": "Rainy",
-            "Time": "Night",
-            "Road Environment": "Urban",
+            "Weather": "Dusk",
+            "Time": "Evening",
+            "Road Environment": "Highway",
             "Lane Options": [
-                "Own Lane",
-                "Right Lane"
+                "Own Lane"
             ],
-            "Ego Lane Position": "Middle Lane"
+            "Ego Lane Position": "Left Lane"
         },
         {
             "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_33_RGB.png",
-            "Reason": "Heavy rain and poor visibility at night, requires slow driving to ensure safety.",
-            "Meta Action": [
-                "slow down",
-                "wait"
+            "Critical Objects": [
+                {
+                    "Category": "SUV",
+                    "Distance": "Near",
+                    "Relative Position": "Behind"
+                },
+                {
+                    "Category": "Bicycle",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
             ]
         },
         {
-            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_44_RGB.png",
-            "Weather": "Rainy",
-            "Time": "Night",
-            "Road Environment": "Urban",
-            "Lane Options": [
-                "Own Lane",
-                "Right Lane"
-            ],
-            "Ego Lane Position": "Middle Lane"
-        },
-        {
-            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_44_RGB.png",
-            "Reason": "Heavy rain and poor visibility at night, requires slow driving to ensure safety.",
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_33_RGB.png",
+            "Reason": "Evening with dusk weather, slow down rapidly due to SUV in behind.",
             "Meta Action": [
-                "slow down",
-                "wait"
+                "slow down rapidly"
             ]
         }
     ]

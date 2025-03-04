@@ -61,7 +61,7 @@ def get_answer(model, base64_image, query, conversation_history):
 
     return answer
 
-def process_images(image_folder, model, questions, conversation_history,  output_file):
+def process_images(image_folder, model, questions, output_file):
     """
     处理指定文件夹下的所有图片，并对每张图片进行多轮对话，最后将结果存入 JSON 文件。
     :param image_folder: 图片所在的文件夹路径
@@ -89,6 +89,9 @@ def process_images(image_folder, model, questions, conversation_history,  output
         # 读取图片
         base64_image = encode_image(image_path)
 
+        # 初始化对话历史
+        conversation_history = initialize_conversation_history()
+
         for question in questions:
             answer = get_answer(model, base64_image, question, conversation_history)
             final_answer = clean_response(answer)
@@ -104,26 +107,16 @@ def main():
     # 此处为手工输入部分
     model = "llama3.2-vision"
     image_path = "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try"
-    output_file = "zero-shot.json"
-    # 初始化对话历史
-    conversation_history = initialize_conversation_history()
+    output_file = "new.json"
+
     # 进行多轮对话
     questions = [
         "What is the environmental conditions?",
         "What is the trajectory?",
     ]
 
-    process_images(image_path, model, questions, conversation_history, output_file)
-    # # 读取图片
-    # base64_image = encode_image(image_path)
-    #
+    process_images(image_path, model, questions, output_file)
 
-
-    # for question in questions:
-    #     answer = get_answer(model, base64_image, question, conversation_history)
-    #     final_answer = clean_response(answer)
-    #     print(f"AI: {final_answer}")
-    #     save_answers_to_json( final_answer, image_path,"zero-shot.json")
 
 
 if __name__ == "__main__":

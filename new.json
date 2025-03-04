@@ -1,0 +1,75 @@
+{
+    "responses": [
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_1_RGB.png",
+            "Weather": "Sunny",
+            "Time": "Day",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_7_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_7_RGB.png",
+            "Reason": "Road environment is urban, time of day is dusk, and weather is night. Critical objects include a pedestrian on the right side.",
+            "Meta Action": [
+                "slow down",
+                "change lane to the left"
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_17_RGB.png",
+            "Weather": "Sunny",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_17_RGB.png",
+            "Reason": "The vehicle must slow down due to the presence of a pedestrian in front and a construction cone on the right side, while navigating through an urban area at night.",
+            "Meta Action": [
+                "slow down",
+                "change lane to the left"
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_25_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_33_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_33_RGB.png",
+            "Reason": "Go straight at a constant speed due to urban road environment, nighttime, and no critical objects detected.",
+            "Meta Action": "go straight at a constant speed"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try/0_44_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        }
+    ]
+}
