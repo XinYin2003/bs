@@ -38,12 +38,12 @@ def get_system_message():
             "For trajectory-related decisions, respond in the following JSON format:\n"
             "{\n"
             "  \"Reason\": \"<The reason for the decision>\",\n"
-            "  \"Meta Action\": [<One or more of the allowed meta actions>]\n"
+            "  \"Meta Action\": <One or more of the allowed meta actions>\n"
             "}\n"
             "The 'Meta Action' must be strictly chosen from the following predefined options:\n"
             f"{', '.join(meta_actions)}.\n"
             "You **must not** generate any values outside of this list. "
-            "Multiple actions can be combined when necessary, e.g., ['slow down', 'change lane to the right'].\n"
+            "Multiple actions can be combined when necessary, e.g., [\"slow down\", \"change lane to the right\"].\n"
             "Ensure your response is a **valid JSON object** and do **not** generate additional text outside of this format."
         ),
     }

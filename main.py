@@ -1,5 +1,6 @@
 import base64
 import ollama
+import os
 import re
 from save_info import save_answers_to_json
 from system_message import  get_system_message
@@ -60,31 +61,69 @@ def get_answer(model, base64_image, query, conversation_history):
 
     return answer
 
+def process_images(image_folder, model, questions, conversation_history,  output_file):
+    """
+    处理指定文件夹下的所有图片，并对每张图片进行多轮对话，最后将结果存入 JSON 文件。
+    :param image_folder: 图片所在的文件夹路径
+    :param model: 处理图片的 AI 模型名称
+    :param questions: 需要询问的列表
+    :param output_file: 结果存储的 JSON 文件名
+    """
+
+    # 确保目录存在
+    if not os.path.exists(image_folder):
+        print(f"Error: 目录 {image_folder} 不存在！")
+        return
+
+    # 获取所有符合格式的图片
+    image_files = [f for f in os.listdir(image_folder) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
+
+    if not image_files:
+        print("Error: 未找到任何图片文件！")
+        return
+
+    for image_file in image_files:
+        image_path = os.path.join(image_folder, image_file)
+        print(f"Processing image: {image_path}")
+
+        # 读取图片
+        base64_image = encode_image(image_path)
+
+        for question in questions:
+            answer = get_answer(model, base64_image, question, conversation_history)
+            final_answer = clean_response(answer)
+            print(f"AI: {final_answer}")
+
+            # 保存到 JSON
+            save_answers_to_json(final_answer, image_path, output_file)
 
 def main():
     """
     主流程，处理对话逻辑
     """
+    # 此处为手工输入部分
     model = "llama3.2-vision"
-    image_path = "1.jpeg"
-
+    image_path = "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try"
+    output_file = "zero-shot.json"
     # 初始化对话历史
     conversation_history = initialize_conversation_history()
-
-    # 读取图片
-    base64_image = encode_image(image_path)
-
     # 进行多轮对话
     questions = [
         "What is the environmental conditions?",
         "What is the trajectory?",
     ]
 
-    for question in questions:
-        answer = get_answer(model, base64_image, question, conversation_history)
-        final_answer = clean_response(answer)
-        print(f"AI: {final_answer}")
-        save_answers_to_json( final_answer, image_path,"zero-shot.json")
+    process_images(image_path, model, questions, conversation_history, output_file)
+    # # 读取图片
+    # base64_image = encode_image(image_path)
+    #
+
+
+    # for question in questions:
+    #     answer = get_answer(model, base64_image, question, conversation_history)
+    #     final_answer = clean_response(answer)
+    #     print(f"AI: {final_answer}")
+    #     save_answers_to_json( final_answer, image_path,"zero-shot.json")
 
 
 if __name__ == "__main__":
