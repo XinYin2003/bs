@@ -12,10 +12,19 @@ def save_answers_to_json(answer_str, image_path, filename):
     data = {
         "image": image_path,
     }
+
+    # **方法 1：去除 AI 输出前缀，提取 JSON 部分**
+    json_start = answer_str.find("{")  # 查找 JSON 开始的 `{`
+    if json_start != -1:
+        json_string = answer_str[json_start:].strip()  # 截取 JSON 字符串
+    else:
+        print(f"❌ Error: No JSON detected in response.\nContent: {answer_str}")
+        return
+
     #处理answer数据
     try:
         # 解析传入的 JSON 字符串
-        new_data = json.loads(answer_str.strip())  # 解析 JSON
+        new_data = json.loads(json_string) # 解析 JSON
 
         # 如果文件已存在，则读取现有数据
         if os.path.exists(filename):

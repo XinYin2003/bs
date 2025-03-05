@@ -53,8 +53,7 @@ def get_system_message():
             # **轨迹决策 JSON 格式**
             "For trajectory-related decisions, respond in the following JSON format:\n"
             "{\n"
-            "  \"Reason\": \"<Comprehensive reasoning that includes weather, time, road conditions, and critical objects>\",\n"
-            "  \"Meta Action\": <One or more of the allowed meta actions>\n"
+            "  \"Decision\": \"Due to <Comprehensive reasoning that includes weather, time, road conditions, and critical objects>, the ego vehicle should <One or more of the allowed meta actions>.\""
             "}\n"
             
 

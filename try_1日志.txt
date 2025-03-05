@@ -1,0 +1,577 @@
+/home/yx/anaconda3/bin/python /home/yx/local/ollama/bs/main.py
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_10_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Right"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Front"}, {"Category": "Construction Cone", "Distance": "Far", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Rainy night in an urban environment with a pedestrian near to the right, traffic light in front and construction cone far behind.", "Meta Action": ["slow down rapidly"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_51_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Left"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Right"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Rainy weather at night on an urban road with pedestrians and traffic lights nearby.", "Meta Action": ["slow down rapidly", "change lane to the right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_75_RGB.png
+AI: {
+  "Weather": "Clear",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["SUV"],
+      "Distance": "Near",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Night driving on urban roads with an SUV approaching in front.",
+  "Meta Action": [
+    "slow down",
+    "change lane to the right"
+  ]
+}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_14_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Right"}, {"Category": "SUV", "Distance": "Middle", "Relative Position": "Left"}, {"Category": "Motorcycle", "Distance": "Far", "Relative Position": "Front"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Rainy night conditions, urban road environment with pedestrians and vehicles nearby. Must slow down to ensure safety while driving through congested area.", "Meta Action": ["slow down"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_38_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Sedan", "Distance": "Near", "Relative Position": "Right"}, {"Category": "Pedestrian", "Distance": "Middle", "Relative Position": "Front"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "The rainy weather at night on a busy urban road with multiple critical objects nearby requires caution, so it's best to slow down and change lanes to the left to maintain safe speed and distance.", "Meta Action": ["slow down", "change lane to the left"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_65_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Left"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Front"}, {"Category": "Construction Cone", "Distance": "Far", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Rainy night in an urban environment with a pedestrian near to the left and traffic light in front. ", "Meta Action": ["slow down", "change lane to the right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_14_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Behind"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Left"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Rainy weather, Urban road conditions, and a pedestrian behind. Speed up when safe to do so.", "Meta Action": ["slow down", "change lane to the right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_32_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian"}, {"Category": "Traffic Light"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Foggy, Highway, Own Lane, Left Lane", "Meta Action": ["slow down", "change lane to the left"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_39_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: The image shows a road with a single lane, no visible pedestrians or other vehicles. Based on this information, there are no critical objects present in the scene.
+
+{"Critical Objects": []}
+AI response has been appended to 'try_1.json'
+AI: "Reason": "Nighttime urban driving with clear visibility and no obstacles, indicating safe conditions for constant speed maintenance.",
+"Meta Action": ["go straight at a constant speed"]
+❌ Error: No JSON detected in response.
+Content: "Reason": "Nighttime urban driving with clear visibility and no obstacles, indicating safe conditions for constant speed maintenance.",
+"Meta Action": ["go straight at a constant speed"]
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_67_RGB.png
+AI: {
+  "Weather": "Rainy",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["SUV", "Pedestrian"],
+      "Distance": ["Near", "Middle"],
+      "Relative Position": ["Right"]
+    },
+    {
+      "Category": ["Traffic Light"],
+      "Distance": ["Far"],
+      "Relative Position": ["Front"]
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Rainy night with urban road environment, middle lane position. SUV and pedestrian are near to right and traffic light is far from front.",
+  "Meta Action": ["slow down", "change lane to the left"]
+Error: The provided string is not valid JSON.
+Content: {
+  "Reason": "Rainy night with urban road environment, middle lane position. SUV and pedestrian are near to right and traffic light is far from front.",
+  "Meta Action": ["slow down", "change lane to the left"]
+Error: Expecting ',' delimiter: line 3 column 58 (char 211)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_23_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Middle", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Left"}, {"Category": "None", "Distance": "Near", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Dusk, Urban. There are a pedestrian in front of me and traffic light on my left.", "Meta Action": ["slow down"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_50_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["Sedan"],
+      "Distance": "Middle",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Foggy, Urban road, and a sedan in front of me", "Meta Action": ["slow down"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/4_18_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": ["SUV"], "Distance": "Near", "Relative Position": "Right"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Urban Road, SUV near right.", "Meta Action": ["slow down"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_12_RGB.png
+AI: {
+    "Weather": "Night",
+    "Time": "Night",
+    "Road Environment": "Urban",
+    "Lane Options": ["Own Lane", "Right Lane"],
+    "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+    "Critical Objects": [
+        {
+            "Category": "Pedestrian",
+            "Distance": "Near",
+            "Relative Position": "Left"
+        }
+    ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+    "Reason": "Night, Urban environment with a pedestrian on the left side of the road. The ego lane position is in the middle.",
+    "Meta Action": ["slow down", "change lane to the right"]
+}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_78_RGB.png
+AI: {\
+  "Weather": "Night",\
+  "Time": "Dusk",\
+  "Road Environment": "Urban",\
+  "Lane Options": ["Own Lane", "Right Lane"],\
+  "Ego Lane Position": "Middle Lane"\
+}
+Error: The provided string is not valid JSON.
+Content: {\
+  "Weather": "Night",\
+  "Time": "Dusk",\
+  "Road Environment": "Urban",\
+  "Lane Options": ["Own Lane", "Right Lane"],\
+  "Ego Lane Position": "Middle Lane"\
+}
+Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+AI: {"Critical Objects": [{
+
+    "Category": "SUV",
+    "Distance": "Near",
+    "Relative Position": "Front"
+
+}]}.
+Error: The provided string is not valid JSON.
+Content: {"Critical Objects": [{
+
+    "Category": "SUV",
+    "Distance": "Near",
+    "Relative Position": "Front"
+
+}]}.
+Error: Extra data: line 7 column 4 (char 109)
+AI: {\
+  "Reason": "Weather: Night, Time: Dusk, Road Conditions: Urban, Critical Objects: SUV near and in front",\
+  "Meta Action": ["slow down rapidly", "change lane to the right"]\
+}
+Error: The provided string is not valid JSON.
+Content: {\
+  "Reason": "Weather: Night, Time: Dusk, Road Conditions: Urban, Critical Objects: SUV near and in front",\
+  "Meta Action": ["slow down rapidly", "change lane to the right"]\
+}
+Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/6_16_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": ["SUV"], "Distance": "Near", "Relative Position": "Right"}, {"Category": ["Traffic Light"], "Distance": "Middle", "Relative Position": "Front"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Urban road with a traffic light in front and an SUV to the right.", "Meta Action": ["slow down"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/6_48_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["Sedan"],
+      "Distance": "Middle",
+      "Relative Position": "Left"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, urban environment with a sedan in front on the left side", "Meta Action": "slow down"}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_30_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: [{"Category": ["Sedan"], "Distance": "Middle", "Relative Position": "Left"}, {"Category": ["Pedestrian"], "Distance": "Near", "Relative Position": "Front"}, {"Category": ["Traffic Light"], "Distance": "Far", "Relative Position": "Right"}]
+Error: The provided string is not valid JSON.
+Content: [{"Category": ["Sedan"], "Distance": "Middle", "Relative Position": "Left"}, {"Category": ["Pedestrian"], "Distance": "Near", "Relative Position": "Front"}, {"Category": ["Traffic Light"], "Distance": "Far", "Relative Position": "Right"}]
+Error: Extra data: line 1 column 75 (char 74)
+AI: {"Reason": "Night, Dusk in Urban area with a middle distance sedan on left and pedestrian near front. Also traffic light far away at right.", "Meta Action": ["go straight slowly"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_57_RGB.png
+AI: { "Weather": "Sunny", "Time": "Night", "Road Environment": "Urban" }
+AI response has been appended to 'try_1.json'
+AI: { "Critical Objects": [ { "Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front" }, { "Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Left" } ] }
+AI response has been appended to 'try_1.json'
+AI: { "Reason": "Based on sunny weather, nighttime conditions, urban road environment with nearby pedestrian and traffic light ahead", "Meta Action": ["slow down", "change lane to the right"] }
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_72_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Middle Lane"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Left"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, urban road environment with a pedestrian near to the left of the vehicle.", "Meta Action": ["slow down", "shift slightly to the right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_43_RGB.png
+AI: {
+  "Weather": "Sunny",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Night, Foggy weather, Urban road conditions with a pedestrian in front of me.",
+  "Meta Action": ["slow down", "change lane to the right"]
+}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_64_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Behind"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Left"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "The weather is rainy, and there are pedestrians behind me. It's also night time, and I'm in an urban environment. Therefore, I should slow down rapidly to ensure safety.", "Meta Action": ["slow down rapidly"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/9_73_RGB.png
+AI: { "Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane" }
+AI response has been appended to 'try_1.json'
+AI: { "Critical Objects": [ { "Category": ["Car","Traffic Light"], "Distance": "Near", "Relative Position": "Front" }, { "Category": ["Pedestrian"], "Distance": "Middle", "Relative Position": "Right" } ] }
+AI response has been appended to 'try_1.json'
+AI: { "Reason": "Night, Urban Road Environment. Car in front of me and pedestrian on the right side.", "Meta Action": ["slow down","change lane to the left"] }
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/11_4_RGB.png
+AI: { "Weather": "Sunny", "Time": "Dusk", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Middle Lane" }
+AI response has been appended to 'try_1.json'
+AI: { "Critical Objects": [ { "Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front" }, { "Category": "Car", "Distance": "Far", "Relative Position": "Left" } ] }
+AI response has been appended to 'try_1.json'
+AI: { "Reason": "Due to the presence of a pedestrian in front and a car on the left, it is necessary to slow down, change lane to the right, and shift slightly to the right.", "Meta Action": ["slow down", "change lane to the right", "shift slightly to the right"] }
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_5_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane", "Right Lane"], "Ego Lane Position": "Middle Lane"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Left"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night time, urban environment with pedestrians and traffic lights ahead, requires slowing down and changing lanes to the right.", "Meta Action": ["slow down", "change lane to the right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_12_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Dusk",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["SUV", "Traffic Light"],
+      "Distance": ["Near", "Far"],
+      "Relative Position": ["Right", "Front"]
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Night, Dusk, Urban road with a critical SUV ahead and traffic light in front. Recommend slowing down to ensure safe navigation.",
+  "Meta Action": ["slow down"]
+}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_26_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Sedan", "Distance": "Middle", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Dusk, Urban environment with a pedestrian in front and sedan behind.", "Meta Action": ["slow down rapidly", "change lane to the right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_52_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": ["Sedan"], "Distance": "Near", "Relative Position": "Right"}, {"Category": ["Motorcycle"], "Distance": "Far", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Rainy night conditions, urban road environment with nearby sedan and distant motorcycle. Change lane to the right to avoid collision.", "Meta Action": ["slow down rapidly", "change lane to the right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_6_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["SUV"],
+      "Distance": "Near",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Night time urban driving with an SUV in front.",
+  "Meta Action": ["go straight at a constant speed"]
+}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_24_RGB.png
+AI: The image depicts a city street at night with several cars driving on it, indicating that the time of day is nighttime. The presence of buildings and streetlights also suggests that the location is an urban area.
+
+*Answer*: {"Weather": "Clear", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: The image shows a city street at night with several cars driving on it, indicating that there are no pedestrians or other objects that could be considered critical.
+
+*Answer*: {"Critical Objects": []}
+AI response has been appended to 'try_1.json'
+AI: Based on the image, the trajectory of the vehicle appears to be heading straight down the road. There are no visible turns or curves in the road ahead, and the vehicle's direction does not appear to be changing.
+
+*Answer*: {"Reason": "Straight road ahead, clear visibility", "Meta Action": "go straight at a constant speed"}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_41_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "SUV", "Distance": "Middle", "Relative Position": "Right"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Dusk, Urban road, Pedestrian in front of me at near distance, SUV to my right at middle distance, Traffic Light behind me at far distance.", "Meta Action": ["slow down", "change lane to the left"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_62_RGB.png
+AI: {
+  "Weather": "Rainy",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["Pedestrian"],
+      "Distance": "Near",
+      "Relative Position": "Front"
+    },
+    {
+      "Category": ["Traffic Light"],
+      "Distance": "Far",
+      "Relative Position": "Left"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Rainy conditions at night on an urban road, with a pedestrian in front and a traffic light to the left. Requires slowing down and shifting slightly to the right.",
+  "Meta Action": ["slow down", "shift slightly to the right"]
+}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_4_RGB.png
+AI: { "Weather": "Sunny", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane" }
+AI response has been appended to 'try_1.json'
+AI: { "Critical Objects": [ { "Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front" }, { "Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Right" } ] }
+AI response has been appended to 'try_1.json'
+AI: { "Reason": "It's nighttime with a clear sky. The road is wet, and there are critical objects ahead like pedestrians and traffic lights. It's best to slow down and change lanes to the right.", "Meta Action": ["slow down", "change lane to the right"] }
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_11_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane"],
+  "Ego Lane Position": "Own Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Right"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Night, rain, urban road with a pedestrian crossing in front of me",
+  "Meta Action": ["slow down rapidly"]
+}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_30_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Left"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Night, urban environment with a pedestrian near on the left side.",
+  "Meta Action": ["slow down"]
+Error: The provided string is not valid JSON.
+Content: {
+  "Reason": "Night, urban environment with a pedestrian near on the left side.",
+  "Meta Action": ["slow down"]
+Error: Expecting ',' delimiter: line 3 column 31 (char 113)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/15_9_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": ["SUV"], "Distance": "Middle", "Relative Position": "Right"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Dusk, Urban road conditions with an SUV in the middle right position. ", "Meta Action": ["go straight slowly"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_8_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Right"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Front"}, {"Category": "Construction Cone", "Distance": "Far", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Weather: Night. Road Environment: Urban. Lane Options: Own Lane. Ego Lane Position: Own Lane. Critical Objects: Pedestrian, Traffic Light, Construction Cone.", "Meta Action": ["slow down", "change lane to right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_64_RGB.png
+AI: {
+    "Weather": "Night",
+    "Time": "Dusk",
+    "Road Environment": "Urban",
+    "Lane Options": ["Own Lane", "Right Lane"],
+    "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+    "Critical Objects": [
+        {
+            "Category": ["Pedestrian", "Sedan"],
+            "Distance": ["Near", "Middle"],
+            "Relative Position": ["Left", "Right"]
+        }
+    ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+    "Reason": "Weather: Night, Time: Dusk, Road Conditions: Urban, Critical Objects: Pedestrian in front and sedan on right",
+    "Meta Action": ["slow down", "change lane to the left"]
+}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_5_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane"],
+  "Ego Lane Position": "Own Lane"
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Left"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Reason": "Night, Urban environment with a pedestrian near the left side of the vehicle.",
+  "Meta Action": "Slow down rapidly"
+Error: The provided string is not valid JSON.
+Content: {
+  "Reason": "Night, Urban environment with a pedestrian near the left side of the vehicle.",
+  "Meta Action": "Slow down rapidly"
+Error: Expecting ',' delimiter: line 3 column 37 (char 131)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_26_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["Traffic Light"],
+      "Distance": "Near",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Rainy weather at night in an urban environment with a traffic light near and front of the vehicle.", "Meta Action": ["slow down", "change lane to the right"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_50_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": "Traffic Light", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Sedan", "Distance": "Middle", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, urban road with traffic light ahead and sedan behind.", "Meta Action": ["slow down rapidly"]}
+AI response has been appended to 'try_1.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_72_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_1.json'
+AI: {"Critical Objects": [{"Category": ["SUV"], "Distance": "Near", "Relative Position": "Right"}, {"Category": ["Traffic Light"], "Distance": "Middle", "Relative Position": "Front"}]}
+AI response has been appended to 'try_1.json'
+AI: {"Reason": "Night, Dusk, Urban road conditions with an SUV near to right and a traffic light in front.", "Meta Action": ["slow down", "change lane to the left"]}
+AI response has been appended to 'try_1.json'

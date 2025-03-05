@@ -1,0 +1,549 @@
+/home/yx/anaconda3/bin/python /home/yx/local/ollama/bs/main.py
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_10_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Right"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Front"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to rainy weather, night time, urban road conditions and a pedestrian and traffic light ahead, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_51_RGB.png
+AI: {"Weather": "Rainy","Time": "Night","Road Environment": "Urban","Lane Options": ["Own Lane", "Right Lane"],"Ego Lane Position": "Middle Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian","Distance": "Near","Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to rainy weather and night time, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_75_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Sedan", "Distance": "Middle", "Relative Position": "Right"}, {"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to rainy weather at night in an urban environment with a sedan in the middle right and a pedestrian in front, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_14_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "SUV", "Distance": "Near", "Relative Position": "Right"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Front"}]}
+AI response has been appended to 'try_2.json'
+AI: "Due to rainy night weather and presence of SUV near ego vehicle on right, the ego vehicle should slow down rapidly."
+❌ Error: No JSON detected in response.
+Content: "Due to rainy night weather and presence of SUV near ego vehicle on right, the ego vehicle should slow down rapidly."
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_38_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": ["Sedan"], "Distance": "Near", "Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to night time, urban road conditions and a sedan in close proximity on the left side of the ego vehicle, the ego vehicle should slow down."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_65_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Right"}, {"Category": "Sedan", "Distance": "Middle", "Relative Position": "Left"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Front"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to Rainy weather at night in an urban environment with a pedestrian near and right, a sedan in the middle lane on the left, and a traffic light far ahead in front, the ego vehicle should slow down."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_14_RGB.png
+AI: {"Weather": "Sunny", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Traffic Light", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Pedestrian", "Distance": "Middle", "Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to the presence of a pedestrian on the left side of the road, the ego vehicle should slow down and shift slightly to the right."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_32_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban", "Lane Options": ["Own Lane", "Right Lane"], "Ego Lane Position": "Middle Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Traffic Light", "Distance": "Near", "Relative Position": "Front"}, {"Category": "SUV", "Distance": "Far", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to Night, Dusk, Urban road conditions, and Traffic Light in front of ego vehicle at near distance, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_39_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Dusk",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "SUV",
+      "Distance": "Near",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Decision": "Due to night, dusk road conditions and an SUV in front of you at a near distance, the ego vehicle should slow down."
+Error: The provided string is not valid JSON.
+Content: {
+  "Decision": "Due to night, dusk road conditions and an SUV in front of you at a near distance, the ego vehicle should slow down."
+Error: Expecting ',' delimiter: line 2 column 132 (char 133)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_67_RGB.png
+AI: {
+  "Weather": "Rainy",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Traffic Light",
+      "Distance": "Near",
+      "Relative Position": "Left"
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Decision": "Due to rainy weather, nighttime conditions, urban road environment, and a traffic light nearby on the left side of the vehicle's lane, the ego vehicle should slow down rapidly."
+Error: The provided string is not valid JSON.
+Content: {
+  "Decision": "Due to rainy weather, nighttime conditions, urban road environment, and a traffic light nearby on the left side of the vehicle's lane, the ego vehicle should slow down rapidly."
+Error: Expecting ',' delimiter: line 2 column 193 (char 194)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_23_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to Night, Urban road environment and a pedestrian in front of the ego vehicle, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_50_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane", "Right Lane"], "Ego Lane Position": "Middle Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Sedan", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Pedestrian", "Distance": "Far", "Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: "Decision": "Due to foggy weather at night on an urban road with a sedan in front and pedestrian on the left, the ego vehicle should slow down."
+❌ Error: No JSON detected in response.
+Content: "Decision": "Due to foggy weather at night on an urban road with a sedan in front and pedestrian on the left, the ego vehicle should slow down."
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/4_18_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to Night, Dusk, Urban road conditions and presence of a pedestrian in front of the vehicle at near distance, the ego vehicle should slow down."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_12_RGB.png
+AI: {"Weather": "Sunny", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Traffic Light", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Pedestrian", "Distance": "Middle", "Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to Sunny weather at Night in an Urban area with a Traffic Light near and a Pedestrian in the middle lane, the ego vehicle should slow down."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_78_RGB.png
+AI: {
+  "Weather": "Sunny",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["SUV", "Traffic Light"],
+      "Distance": ["Near", "Far"],
+      "Relative Position": ["Left", "Right"]
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Decision": "Due to Sunny weather, night time, urban road environment, and presence of an SUV near and a traffic light far away, the ego vehicle should slow down and change lane to the right."
+Error: The provided string is not valid JSON.
+Content: {
+  "Decision": "Due to Sunny weather, night time, urban road environment, and presence of an SUV near and a traffic light far away, the ego vehicle should slow down and change lane to the right."
+Error: Expecting ',' delimiter: line 2 column 195 (char 196)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/6_16_RGB.png
+AI: {
+  "Weather": "Sunny",
+  "Time": "Night",
+  "Road Environment": "Urban"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Traffic Light",
+      "Distance": "Near",
+      "Relative Position": "Front"
+    },
+    {
+      "Category": "Pedestrian",
+      "Distance": "Middle",
+      "Relative Position": "Right"
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Decision": "Due to the traffic light in front of me, the road being wet and slippery at night, and a pedestrian walking on the right side of the road, the ego vehicle should slow down."
+Error: The provided string is not valid JSON.
+Content: {
+  "Decision": "Due to the traffic light in front of me, the road being wet and slippery at night, and a pedestrian walking on the right side of the road, the ego vehicle should slow down."
+Error: Expecting ',' delimiter: line 2 column 189 (char 190)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/6_48_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: Critical Objects: [
+  {
+    "Category": "Sedan",
+    "Distance": "Near",
+    "Relative Position": "Left"
+  }
+]
+Error: The provided string is not valid JSON.
+Content: Critical Objects: [
+  {
+    "Category": "Sedan",
+    "Distance": "Near",
+    "Relative Position": "Left"
+  }
+]
+Error: Extra data: line 6 column 1 (char 87)
+AI: "Decision": "Due to the presence of a sedan on the left side at a near distance, the ego vehicle should slow down and shift slightly to the right."
+❌ Error: No JSON detected in response.
+Content: "Decision": "Due to the presence of a sedan on the left side at a near distance, the ego vehicle should slow down and shift slightly to the right."
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_30_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "SUV", "Distance": "Near", "Relative Position": "Right"}, {"Category": "Pedestrian", "Distance": "Middle", "Relative Position": "Front"}]}
+AI response has been appended to 'try_2.json'
+AI: {
+    "Decision": "Due to multiple critical objects approaching in front of and on the right side, it is advisable to slow down, change lane to the left, and shift slightly to the left."
+}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_57_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "SUV", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to heavy rain and low visibility at night in urban conditions, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_72_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane"],
+  "Ego Lane Position": "Own Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": ["SUV", "Pedestrian"],
+      "Distance": ["Near"],
+      "Relative Position": ["Right"]
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: { "Decision": "Due to the presence of an SUV on the right side of the road and a pedestrian in front, the ego vehicle should slow down rapidly." }
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_43_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to Night, Urban road conditions and a pedestrian in front of you, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_64_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Bicycle", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Left"}, {"Category": "SUV", "Distance": "Far", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to rainy weather and night time, the ego vehicle should slow down rapidly and shift slightly to the right."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/9_73_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban", "Lane Options": ["Own Lane", "Right Lane"], "Ego Lane Position": "Middle Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Sedan", "Distance": "Far", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: "Decision": "Due to Night, Dusk and urban road conditions with a pedestrian in front of the ego vehicle at near distance, the ego vehicle should slow down."
+❌ Error: No JSON detected in response.
+Content: "Decision": "Due to Night, Dusk and urban road conditions with a pedestrian in front of the ego vehicle at near distance, the ego vehicle should slow down."
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/11_4_RGB.png
+AI: {
+"Weather": "Night",
+"Time": "Night",
+"Road Environment": "Urban",
+"Lane Options": ["Own Lane","Right Lane"],
+"Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+"Decision": "Due to night road conditions and a pedestrian in front of the ego vehicle, the ego vehicle should slow down." }
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_5_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": ["Sedan"], "Distance": "Near", "Relative Position": "Left"}, {"Category": ["Pedestrian"], "Distance": "Far", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to rainy weather, night time and urban road environment, with a sedan near on the left lane and pedestrian far right, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_12_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": ["Sedan"], "Distance": "Middle", "Relative Position": "Front"}, {"Category": ["Pedestrian"], "Distance": "Near", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: "Due to Night road environment and presence of a sedan in front, the ego vehicle should slow down."
+❌ Error: No JSON detected in response.
+Content: "Due to Night road environment and presence of a sedan in front, the ego vehicle should slow down."
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_26_RGB.png
+AI: The image depicts a nighttime scene with streetlights illuminating the road, suggesting it's either evening or night. The presence of streetlights indicates that the time of day is not during daylight hours.
+
+*Answer*: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_2.json'
+AI: There are no critical objects in the image. The road appears to be empty, with no pedestrians, vehicles, or other obstacles visible.
+
+*Answer*: {"Critical Objects": []}
+AI response has been appended to 'try_2.json'
+AI: Based on the provided information, the ego vehicle should slow down and change lane to the right due to the presence of a critical object (a pedestrian) on the road ahead. This decision is made to ensure safety by reducing speed and moving away from the potential hazard.
+
+*Answer*: {"Decision": "Due to a pedestrian on the road ahead, the ego vehicle should slow down and change lane to the right."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_52_RGB.png
+AI: {"Weather": "Rainy","Time": "Night","Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian","Distance": "Near","Relative Position": "Front"}, {"Category": "Traffic Light","Distance": "Middle","Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to rainy weather at night and urban road conditions, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_6_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Behind"
+    },
+    {
+      "Category": "SUV",
+      "Distance": "Middle",
+      "Relative Position": "Right"
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Decision": "Due to Night weather conditions, urban road environment, and critical objects including a pedestrian near behind and an SUV in the middle right position, the ego vehicle should slow down rapidly."
+Error: The provided string is not valid JSON.
+Content: {
+  "Decision": "Due to Night weather conditions, urban road environment, and critical objects including a pedestrian near behind and an SUV in the middle right position, the ego vehicle should slow down rapidly."
+Error: Expecting ',' delimiter: line 2 column 212 (char 213)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_24_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Dusk",
+  "Road Environment": "Urban",
+  "Lane Options": ["Left Lane", "Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Right"
+    },
+    {
+      "Category": "Traffic Light",
+      "Distance": "Far",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Decision": "Due to Night, Dusk, Urban road conditions and presence of a pedestrian near right side and traffic light far ahead, the ego vehicle should slow down."
+}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_41_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Right"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Front"}, {"Category": "Construction Cone", "Distance": "Far", "Relative Position": "Behind"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to Night time, urban environment and critical objects such as pedestrians, traffic light and construction cones in the vicinity, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_62_RGB.png
+AI: { "Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Middle Lane" }
+AI response has been appended to 'try_2.json'
+AI: { "Critical Objects": [ { "Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front" }, { "Category": "Traffic Light", "Distance": "Far", "Relative Position": "Right" } ] }
+AI response has been appended to 'try_2.json'
+AI: { "Decision": "Due to Night weather, night time, urban road conditions and pedestrian in front of the ego vehicle, the ego vehicle should slow down rapidly." }
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_4_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane", "Right Lane"], "Ego Lane Position": "Middle Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Behind"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Front"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to nighttime urban road conditions and a pedestrian in close proximity behind, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_11_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Front"
+    },
+    {
+      "Category": "Traffic Light",
+      "Distance": "Middle",
+      "Relative Position": "Right"
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Decision": "Due to the pedestrian in front of me and the traffic light on my right, I should slow down and change lane to the left."
+Error: The provided string is not valid JSON.
+Content: {
+  "Decision": "Due to the pedestrian in front of me and the traffic light on my right, I should slow down and change lane to the left."
+Error: Expecting ',' delimiter: line 2 column 136 (char 137)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_30_RGB.png
+AI: {
+  "Weather": "Night",
+  "Time": "Night",
+  "Road Environment": "Urban",
+  "Lane Options": ["Own Lane", "Right Lane"],
+  "Ego Lane Position": "Middle Lane"
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Critical Objects": [
+    {
+      "Category": "Pedestrian",
+      "Distance": "Near",
+      "Relative Position": "Left"
+    },
+    {
+      "Category": "Traffic Light",
+      "Distance": "Middle",
+      "Relative Position": "Front"
+    }
+  ]
+}
+AI response has been appended to 'try_2.json'
+AI: {
+  "Decision": "Due to Night weather, Urban environment and a pedestrian at near left position, the ego vehicle should slow down rapidly."
+Error: The provided string is not valid JSON.
+Content: {
+  "Decision": "Due to Night weather, Urban environment and a pedestrian at near left position, the ego vehicle should slow down rapidly."
+Error: Expecting ',' delimiter: line 2 column 138 (char 139)
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/15_9_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Middle Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Far", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: "Decision": "Due to Night time, urban road conditions, and a pedestrian in front of the vehicle, the ego vehicle should slow down."
+❌ Error: No JSON detected in response.
+Content: "Decision": "Due to Night time, urban road conditions, and a pedestrian in front of the vehicle, the ego vehicle should slow down."
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_8_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}]}
+AI response has been appended to 'try_2.json'
+AI: { "Decision": "Due to Night weather and Urban road conditions, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_64_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: { "Decision": "Due to night, dusk, urban road conditions and a pedestrian in front of the vehicle near and a traffic light on the right at middle distance, the ego vehicle should slow down rapidly."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_5_RGB.png
+AI: {"Weather": "Night", "Time": "Night", "Road Environment": "Urban", "Lane Options": ["Own Lane"], "Ego Lane Position": "Own Lane"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": "Pedestrian", "Distance": "Near", "Relative Position": "Front"}, {"Category": "Traffic Light", "Distance": "Middle", "Relative Position": "Right"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to rainy weather, night time, urban road environment with own lane and a pedestrian in front and traffic light on the right, the ego vehicle should slow down."}
+AI response has been appended to 'try_2.json'
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_26_RGB.png
+AI: The following image depicts an urban environment with four lanes, featuring a predominantly straight road with minimal incline and no visible traffic signals or construction cones.
+
+*   **Weather:** Sunny
+*   **Time:** Night
+*   **Road Environment:** Urban
+*   **Lane Options:**
+    *   ["Left Lane", "Middle Left Lane", "Own Lane", "Middle Right Lane", "Right Lane"]
+*   **Ego Lane Position:** Own Lane
+❌ Error: No JSON detected in response.
+Content: The following image depicts an urban environment with four lanes, featuring a predominantly straight road with minimal incline and no visible traffic signals or construction cones.
+
+*   **Weather:** Sunny
+*   **Time:** Night
+*   **Road Environment:** Urban
+*   **Lane Options:**
+    *   ["Left Lane", "Middle Left Lane", "Own Lane", "Middle Right Lane", "Right Lane"]
+*   **Ego Lane Position:** Own Lane
+AI: The image displays a straight road with no visible traffic signals or construction cones. The following objects are present in the scene:
+
+*   A white car positioned to the right of the ego vehicle
+*   A red car driving towards the ego vehicle from the distance
+*   Two individuals walking across the street
+❌ Error: No JSON detected in response.
+Content: The image displays a straight road with no visible traffic signals or construction cones. The following objects are present in the scene:
+
+*   A white car positioned to the right of the ego vehicle
+*   A red car driving towards the ego vehicle from the distance
+*   Two individuals walking across the street
+AI: Based on the image, the following trajectory-related decisions can be made:
+
+*   The ego vehicle should **slow down** due to the presence of pedestrians and vehicles in close proximity.
+*   The ego vehicle should **change lane to the right** to avoid potential collisions with the approaching red car.
+❌ Error: No JSON detected in response.
+Content: Based on the image, the following trajectory-related decisions can be made:
+
+*   The ego vehicle should **slow down** due to the presence of pedestrians and vehicles in close proximity.
+*   The ego vehicle should **change lane to the right** to avoid potential collisions with the approaching red car.
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_50_RGB.png
+AI: {"Weather": "Night", "Time": "Dusk", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": ["SUV"], "Distance": "Near", "Relative Position": "Right"}, {"Category": ["Pedestrian"], "Distance": "Middle", "Relative Position": "Front"}]}
+AI response has been appended to 'try_2.json'
+AI: "Decision": "Due to the presence of an SUV and a pedestrian, the ego vehicle should slow down rapidly and shift slightly to the left."
+❌ Error: No JSON detected in response.
+Content: "Decision": "Due to the presence of an SUV and a pedestrian, the ego vehicle should slow down rapidly and shift slightly to the left."
+Processing image: /media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_72_RGB.png
+AI: {"Weather": "Rainy", "Time": "Night", "Road Environment": "Urban"}
+AI response has been appended to 'try_2.json'
+AI: {"Critical Objects": [{"Category": ["Sedan"], "Distance": "Near", "Relative Position": "Front"}, {"Category": ["Traffic Light"], "Distance": "Middle", "Relative Position": "Left"}]}
+AI response has been appended to 'try_2.json'
+AI: {"Decision": "Due to rainy weather, nighttime conditions, urban road environment, and nearby sedan in front of traffic light, the ego vehicle should slow down."}
+AI response has been appended to 'try_2.json'

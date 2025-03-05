@@ -1,0 +1,1066 @@
+{
+    "responses": [
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_10_RGB.png",
+            "Weather": "Rainy",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_10_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_10_RGB.png",
+            "Decision": "Due to rainy weather, night time, urban road conditions and a pedestrian and traffic light ahead, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_51_RGB.png",
+            "Weather": "Rainy",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_51_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_51_RGB.png",
+            "Decision": "Due to rainy weather and night time, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_75_RGB.png",
+            "Weather": "Rainy",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_75_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Sedan",
+                    "Distance": "Middle",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/0_75_RGB.png",
+            "Decision": "Due to rainy weather at night in an urban environment with a sedan in the middle right and a pedestrian in front, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_14_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_14_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "SUV",
+                    "Distance": "Near",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Far",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_38_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_38_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": [
+                        "Sedan"
+                    ],
+                    "Distance": "Near",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_38_RGB.png",
+            "Decision": "Due to night time, urban road conditions and a sedan in close proximity on the left side of the ego vehicle, the ego vehicle should slow down."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_65_RGB.png",
+            "Weather": "Rainy",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_65_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": "Sedan",
+                    "Distance": "Middle",
+                    "Relative Position": "Left"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Far",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/1_65_RGB.png",
+            "Decision": "Due to Rainy weather at night in an urban environment with a pedestrian near and right, a sedan in the middle lane on the left, and a traffic light far ahead in front, the ego vehicle should slow down."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_14_RGB.png",
+            "Weather": "Sunny",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_14_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Middle",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_14_RGB.png",
+            "Decision": "Due to the presence of a pedestrian on the left side of the road, the ego vehicle should slow down and shift slightly to the right."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_32_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_32_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "SUV",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_32_RGB.png",
+            "Decision": "Due to Night, Dusk, Urban road conditions, and Traffic Light in front of ego vehicle at near distance, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_39_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_39_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "SUV",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_67_RGB.png",
+            "Weather": "Rainy",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/2_67_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Near",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_23_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_23_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_23_RGB.png",
+            "Decision": "Due to Night, Urban road environment and a pedestrian in front of the ego vehicle, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_50_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/3_50_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Sedan",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Far",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/4_18_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/4_18_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/4_18_RGB.png",
+            "Decision": "Due to Night, Dusk, Urban road conditions and presence of a pedestrian in front of the vehicle at near distance, the ego vehicle should slow down."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_12_RGB.png",
+            "Weather": "Sunny",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_12_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Middle",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_12_RGB.png",
+            "Decision": "Due to Sunny weather at Night in an Urban area with a Traffic Light near and a Pedestrian in the middle lane, the ego vehicle should slow down."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_78_RGB.png",
+            "Weather": "Sunny",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/5_78_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": [
+                        "SUV",
+                        "Traffic Light"
+                    ],
+                    "Distance": [
+                        "Near",
+                        "Far"
+                    ],
+                    "Relative Position": [
+                        "Left",
+                        "Right"
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/6_16_RGB.png",
+            "Weather": "Sunny",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/6_16_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Middle",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/6_48_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_30_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_30_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "SUV",
+                    "Distance": "Near",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Middle",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_30_RGB.png",
+            "Decision": "Due to multiple critical objects approaching in front of and on the right side, it is advisable to slow down, change lane to the left, and shift slightly to the left."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_57_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_57_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "SUV",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_57_RGB.png",
+            "Decision": "Due to heavy rain and low visibility at night in urban conditions, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_72_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_72_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": [
+                        "SUV",
+                        "Pedestrian"
+                    ],
+                    "Distance": [
+                        "Near"
+                    ],
+                    "Relative Position": [
+                        "Right"
+                    ]
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/7_72_RGB.png",
+            "Decision": "Due to the presence of an SUV on the right side of the road and a pedestrian in front, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_43_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_43_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_43_RGB.png",
+            "Decision": "Due to Night, Urban road conditions and a pedestrian in front of you, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_64_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_64_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Bicycle",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Left"
+                },
+                {
+                    "Category": "SUV",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/8_64_RGB.png",
+            "Decision": "Due to rainy weather and night time, the ego vehicle should slow down rapidly and shift slightly to the right."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/9_73_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/9_73_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Sedan",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/11_4_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/11_4_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/11_4_RGB.png",
+            "Decision": "Due to night road conditions and a pedestrian in front of the ego vehicle, the ego vehicle should slow down."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_5_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_5_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": [
+                        "Sedan"
+                    ],
+                    "Distance": "Near",
+                    "Relative Position": "Left"
+                },
+                {
+                    "Category": [
+                        "Pedestrian"
+                    ],
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_5_RGB.png",
+            "Decision": "Due to rainy weather, night time and urban road environment, with a sedan near on the left lane and pedestrian far right, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_12_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_12_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": [
+                        "Sedan"
+                    ],
+                    "Distance": "Middle",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": [
+                        "Pedestrian"
+                    ],
+                    "Distance": "Near",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_26_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_26_RGB.png",
+            "Critical Objects": []
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_26_RGB.png",
+            "Decision": "Due to a pedestrian on the road ahead, the ego vehicle should slow down and change lane to the right."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_52_RGB.png",
+            "Weather": "Rainy",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_52_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/12_52_RGB.png",
+            "Decision": "Due to rainy weather at night and urban road conditions, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_6_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_6_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Behind"
+                },
+                {
+                    "Category": "SUV",
+                    "Distance": "Middle",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_24_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Left Lane",
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_24_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Far",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_24_RGB.png",
+            "Decision": "Due to Night, Dusk, Urban road conditions and presence of a pedestrian near right side and traffic light far ahead, the ego vehicle should slow down."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_41_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_41_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Construction Cone",
+                    "Distance": "Far",
+                    "Relative Position": "Behind"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_41_RGB.png",
+            "Decision": "Due to Night time, urban environment and critical objects such as pedestrians, traffic light and construction cones in the vicinity, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_62_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_62_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/13_62_RGB.png",
+            "Decision": "Due to Night weather, night time, urban road conditions and pedestrian in front of the ego vehicle, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_4_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_4_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Behind"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Far",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_4_RGB.png",
+            "Decision": "Due to nighttime urban road conditions and a pedestrian in close proximity behind, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_11_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_11_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_30_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane",
+                "Right Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/14_30_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Left"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/15_9_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Middle Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/15_9_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Far",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_8_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_8_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_8_RGB.png",
+            "Decision": "Due to Night weather and Urban road conditions, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_64_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_64_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/16_64_RGB.png",
+            "Decision": "Due to night, dusk, urban road conditions and a pedestrian in front of the vehicle near and a traffic light on the right at middle distance, the ego vehicle should slow down rapidly."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_5_RGB.png",
+            "Weather": "Night",
+            "Time": "Night",
+            "Road Environment": "Urban",
+            "Lane Options": [
+                "Own Lane"
+            ],
+            "Ego Lane Position": "Own Lane"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_5_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": "Pedestrian",
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": "Traffic Light",
+                    "Distance": "Middle",
+                    "Relative Position": "Right"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_5_RGB.png",
+            "Decision": "Due to rainy weather, night time, urban road environment with own lane and a pedestrian in front and traffic light on the right, the ego vehicle should slow down."
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_50_RGB.png",
+            "Weather": "Night",
+            "Time": "Dusk",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_50_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": [
+                        "SUV"
+                    ],
+                    "Distance": "Near",
+                    "Relative Position": "Right"
+                },
+                {
+                    "Category": [
+                        "Pedestrian"
+                    ],
+                    "Distance": "Middle",
+                    "Relative Position": "Front"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_72_RGB.png",
+            "Weather": "Rainy",
+            "Time": "Night",
+            "Road Environment": "Urban"
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_72_RGB.png",
+            "Critical Objects": [
+                {
+                    "Category": [
+                        "Sedan"
+                    ],
+                    "Distance": "Near",
+                    "Relative Position": "Front"
+                },
+                {
+                    "Category": [
+                        "Traffic Light"
+                    ],
+                    "Distance": "Middle",
+                    "Relative Position": "Left"
+                }
+            ]
+        },
+        {
+            "image": "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result/17_72_RGB.png",
+            "Decision": "Due to rainy weather, nighttime conditions, urban road environment, and nearby sedan in front of traffic light, the ego vehicle should slow down."
+        }
+    ]
+}

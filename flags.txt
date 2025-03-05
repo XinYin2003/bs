@@ -1,0 +1,16 @@
+__ignore__
+speed up
+slow down
+slow down rapidly
+go straight slowly
+go straight at a constant speed
+stop
+wait
+reverse
+change lane to the left
+change lane to the right
+shift slightly to the left
+shift slightly to the right
+turn left
+turn right
+turn around

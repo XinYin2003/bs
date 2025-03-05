@@ -29,6 +29,7 @@ def clean_response(response_text):
     """
     # 在用deepseek时，删除 <think> 标签及其内容
     response_text = re.sub(r"<think>.*?</think>", "", response_text, flags=re.DOTALL)
+
     return response_text.strip()
 
 def get_answer(model, base64_image, query, conversation_history):
@@ -106,12 +107,13 @@ def main():
     """
     # 此处为手工输入部分
     model = "llama3.2-vision"
-    image_path = "/media/yx/Elements/Data/jh_data/Night_1/Crossroads/try"
-    output_file = "new.json"
+    image_path = "/media/yx/Elements/Data/jh_data/Night_1/Crossroads_with_trafficlight/result"
+    output_file = "try_2.json"
 
     # 进行多轮对话
     questions = [
         "What is the environmental conditions?",
+        "What is the Critical Objects",
         "What is the trajectory?",
     ]
 
